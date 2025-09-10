@@ -1,0 +1,224 @@
+.gradient-btn {
+  background: linear-gradient(90deg, #ff0000, #0000ff);
+  color: white;
+  border: none !important;   /* just in case */
+  outline: none !important;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(90deg, #cc0000, #0000cc);
+  color: white;
+}
+
+.banner-section {
+  background: linear-gradient(to bottom, #fff5f5, #f5f9ff);
+  color: #222;
+  padding: 60px 0;
+}
+
+.banner-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-orange {
+  color: #cc5500;
+}
+
+.text-black {
+  color: black;
+}
+
+.banner-subheading {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.banner-card {
+  background: white;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.banner-card:hover {
+  transform: translateY(-5px);
+}
+.text-darkorange {
+  color: #cc5500;
+}
+
+.features-section h1{
+  font-weight: 700;
+}
+
+.feature-card {  
+  background: linear-gradient(to bottom right, #f9e3e3, #cee1ff);
+  border-radius: 25px;
+  border: 2px solid #fff;   
+  padding: 50px;
+  color: #000;        
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  position: relative;
+  padding: 3px 15px;
+  border-radius: 14px;
+}
+
+.feature-blue {
+  background: #e6eeff;
+  color: #264d99;      
+}
+
+.feature-red {
+  background: #fdecea; 
+  color: #b71c1c;      
+}
+
+.feature-green {
+  background: #eaf7ea;
+  color: #1b5e20;      
+}
+
+.feature-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.feature-card ul li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+}
+
+.feature-card ul li::before {
+  content: "•"; 
+  position: absolute;
+  left: 0;
+  color: #cc5500; 
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.text-darkorange {
+  color: #cc5500;
+}
+
+/* Card styling */
+.partner-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  background: #fff;
+}
+.feature-grey {
+  background: #f1f1f1;
+  color: #555;
+}
+
+.orange-btn {
+  background: #fff !important;
+  color: #cc5500 !important;
+  border: 1px solid #cc5500 !important;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.orange-btn:hover {
+  background: #cc5500 !important;
+  color: #fff !important;
+}
+
+.text-darkorange {
+  color: #cc5500;
+}
+
+.benefit-card {
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.partnership-btn {
+  background: #fff !important;
+  color: #cc5500 !important;
+  border: 2px solid #cc5500 !important;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+.partnership-btn:hover {
+  background: #cc5500 !important;
+  color: #fff !important;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+ul li::marker {
+  color: #cc5500;
+}
+
+
+.footer-section {
+  background: #f8f9fa;
+  padding: 40px 0;
+  color: #fff;
+  font-size: 0.95rem;
+  background: #00004a;
+}
+
+.footer-head {
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+  color: #bababa;
+  font-weight: 600;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #bababa;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #cc5500;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+.dropdown-item:hover{
+  background: #cc5500;
+}

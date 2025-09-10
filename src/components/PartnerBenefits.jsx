@@ -9,7 +9,7 @@ function PartnerBenefits() {
     <div className="partner-benefits-section py-5">
       <Container>
         <h2 className="mb-2 text-center fw-bolder">
-          Partner <span className="text-darkorange">Benefits</span>
+          Ready to become a <span className="text-darkorange">MESH Works partner?</span>
         </h2>
         <p className="text-muted text-center mb-4">
           Unlock exclusive advantages when you collaborate with us.
